@@ -1,0 +1,23 @@
+{
+    "name": "yorvin/app-salon_php_mvc_js_sass",
+    "description": "Proyecto MVC, PHP, MYSQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4":{
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yorvin",
+            "email": "64748709+yorvinvallejos@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
